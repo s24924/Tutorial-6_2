@@ -1,7 +1,4 @@
-// File: Lion.java
-    public class Lion extends Feline {
-
-        // Implementation of makeNoise() specific to Lion.
+public class Lion extends Feline {
         @Override
         public void makeNoise() {
             System.out.println("The lion roars!");

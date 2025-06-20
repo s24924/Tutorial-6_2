@@ -1,9 +1,7 @@
-// File: Dog.java
-    public class Dog extends Canine {
-
-        // Implementation of makeNoise() specific to Dog.
-        @Override
+public class Dog extends Canine {
+    @Override
         public void makeNoise() {
-            System.out.println("The dog barks.");
+
+        System.out.println("The dog barks.");
         }
     }

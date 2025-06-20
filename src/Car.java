@@ -8,4 +8,12 @@ public class Car extends Vehicle {
         public int getNumberOfSeats() {
             return this.numberOfSeats;
         }
+    @Override
+    public void start() {
+        System.out.println("The car's engine has started.");
+    }
+    @Override
+    public void stop() {
+        System.out.println("The car's engine has stopped.");
+    }
 }
